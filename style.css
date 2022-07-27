@@ -2,14 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 /* Common Styles */
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
 
-.skill-btn{
-    background-image: linear-gradient(90deg,#e76404, #fc9022);
-    color:#fff;
+.skill-btn {
+    background-image: linear-gradient(90deg, #e76404, #fc9022);
+    color: #fff;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
+}
+/* Make Carousel Caption center based on image */
+.carousel-caption {
+    transform: translateY(-60%);
+}
+@media screen and (max-width:991px) {
+    .carousel-caption {
+        transform: translateY(0%);
+    }
 }
