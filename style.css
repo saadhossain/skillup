@@ -1,5 +1,5 @@
 /* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 
 /* Common Styles */
 body {
@@ -13,12 +13,7 @@ body {
     padding: 10px 20px;
     border-radius: 5px;
 }
-/* Make Carousel Caption center based on image */
-.carousel-caption {
-    transform: translateY(-60%);
-}
-@media screen and (max-width:991px) {
-    .carousel-caption {
-        transform: translateY(0%);
-    }
+
+.skill-text {
+    color: #fc9022;
 }
