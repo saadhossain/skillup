@@ -31,3 +31,17 @@ body {
 .stats{
     background-color: #F4FAFD;
 }
+
+/* Arrow icons */
+.bi-arrow-left-short{
+    font-size:20px;
+    line-height: 0;
+    margin-left:-15px;
+    background-color: #E5F6FF;
+    color:#0C8CE9;
+}
+.bi-arrow-right-short{
+    font-size:20px;
+    line-height: 0;
+    margin-right:-15px;
+}
